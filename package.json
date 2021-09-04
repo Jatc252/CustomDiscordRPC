@@ -1,0 +1,15 @@
+{
+  "name": "customdiscordrpc",
+  "version": "1.0.0",
+  "description": "Custom Discord rich presence.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jatc251",
+  "license": "GNU GPLv3",
+  "dependencies": {
+    "discord-rpc": "^3.2.0",
+    "dotenv": "^8.2.0"
+  }
+}

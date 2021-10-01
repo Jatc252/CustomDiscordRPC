@@ -14,7 +14,8 @@ require('dotenv').config();
             smallImageText: process.env.smallText
         }).catch(err => console.log(err));
 
-        console.log("Custom Discord rich presence successfully enables.");
+        console.log("CustomDiscordRPC by Jatc251");
+        console.log("Your Custom Discord rich presence has been successfully enabled.");
     });
 
     await client.login({ clientId: process.env.applicationID }).catch(console.error); // Logging into our application.
